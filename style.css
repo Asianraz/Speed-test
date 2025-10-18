@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+    color: #5d4954;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.plant1 {
+    position: absolute;
+    bottom: -50px;
+    left: -60px;
+    width: 150px;
+    z-index: -1;
+}
+
+.plant2 {
+    position: absolute;
+    top: -40px;
+    right: -50px;
+    width: 120px;
+    z-index: -1;
+}
+
+.fairy {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#quote-container {
+    margin-bottom: 2rem;
+}
+
+#quote {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-family: sans-serif; /* Use a more readable font for the quote */
+}
+
+#input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    border: 1px solid #e0b1cb;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #5d4954;
+    resize: none;
+    outline: none;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat p:first-child {
+    font-size: 1.2rem;
+    color: #8c7a83;
+}
+
+.stat p:last-child {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#reset-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background: #ff8fab;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#reset-btn:hover {
+    background: #fb6f92;
+}
